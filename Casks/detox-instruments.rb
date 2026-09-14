@@ -6,7 +6,7 @@ cask "detox-instruments" do
   name "Detox Instruments"
   homepage "https://github.com/wix/DetoxInstruments"
 
-  depends_on macos: :catalina
+  depends_on macos: :big_sur
 
   app "Detox Instruments.app"
 end
